@@ -15,4 +15,8 @@ public class Dog extends Animal {
         super(id, name);
         this.isTrained = isTrained;
     }
+
+    public boolean isTrained() {
+        return isTrained;
+    }
 }
