@@ -1,6 +1,6 @@
 package ru.clevertec.gitflow.entity;
 
-public class Dog extends Animal {
+public class Dog extends AbstractAnimal {
     private boolean isTrained;
 
     public Dog() {
