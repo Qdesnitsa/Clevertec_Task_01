@@ -1,6 +1,6 @@
 package ru.clevertec.gitflow.entity;
 
-public class Cat extends Animal {
+public class Cat extends AbstractAnimal {
     private boolean containsHair;
 
     public Cat() {
