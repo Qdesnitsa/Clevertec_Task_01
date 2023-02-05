@@ -31,4 +31,6 @@ public abstract class AbstractAnimal {
     public void setName(String name) {
         this.name = name;
     }
+
+    public abstract void makeSound();
 }
