@@ -1,4 +1,4 @@
 package ru.clevertec.gitflow.entity;
 
-public class Animal {
+public abstract class AbstractAnimal {
 }
