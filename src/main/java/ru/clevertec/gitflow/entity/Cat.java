@@ -15,4 +15,8 @@ public class Cat extends Animal {
         super(id, name);
         this.containsHair = containsHair;
     }
+
+    public boolean isContainsHair() {
+        return containsHair;
+    }
 }
