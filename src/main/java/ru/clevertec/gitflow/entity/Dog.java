@@ -19,4 +19,8 @@ public class Dog extends Animal {
     public boolean isTrained() {
         return isTrained;
     }
+
+    public void setTrained(boolean trained) {
+        isTrained = trained;
+    }
 }
