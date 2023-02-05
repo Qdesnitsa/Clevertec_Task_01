@@ -1,17 +1,17 @@
 package ru.clevertec.gitflow.entity;
 
-public class Animal {
+public abstract class AbstractAnimal {
     private Long id;
     private String name;
 
-    public Animal() {
+    public AbstractAnimal() {
     }
 
-    public Animal(String name) {
+    public AbstractAnimal(String name) {
         this.name = name;
     }
 
-    public Animal(Long id, String name) {
+    public AbstractAnimal(Long id, String name) {
         this.id = id;
         this.name = name;
     }
