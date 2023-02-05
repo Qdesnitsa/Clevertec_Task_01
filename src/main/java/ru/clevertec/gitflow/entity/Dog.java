@@ -23,4 +23,9 @@ public class Dog extends AbstractAnimal {
     public void setTrained(boolean trained) {
         isTrained = trained;
     }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Gav");
+    }
 }
