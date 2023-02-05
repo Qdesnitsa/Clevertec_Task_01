@@ -23,4 +23,9 @@ public class Cat extends AbstractAnimal {
     public void setContainsHair(boolean containsHair) {
         this.containsHair = containsHair;
     }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Myau");
+    }
 }
